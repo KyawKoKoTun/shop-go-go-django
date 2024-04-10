@@ -1,5 +1,8 @@
 <h1>How To Run</h1>
 <ol>
+  <li>python -m venv env</li>
+  <li>env/Scripts/activate</li>
+  <li>pip install -r requirements.txt</li>
   <li>python manage.py makemigrations</li>
   <li>python manage.py migrate</li>
   <li>python manage.py runserver</li>

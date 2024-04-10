@@ -1,0 +1,12 @@
+asgiref==3.7.2
+django==5.0.1
+django-filter==24.2
+django-cors-headers==4.3.1
+django-db-connection-pool==1.2.4
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.1
+drf-yasg==1.21.7
+mysqlclient==2.2.1
+SQLAlchemy==2.0.25
+python-dotenv==1.0.0
+pillow==10.3.0

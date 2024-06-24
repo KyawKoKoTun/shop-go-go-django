@@ -1,21 +1,41 @@
-<h1>How To Run</h1>
 
-<ol>
-  <li>python -m venv env</li>
-  <li>env/Scripts/activate</li>
-  <li>pip install -r requirements.txt</li>
-  <li>python manage.py makemigrations</li>
-  <li>python manage.py migrate</li>
-  <li>python manage.py runserver</li>
-</ol>
+# How To Run
 
-<h1>Creating Admin Account</h1>
-<ol>
-  <li>python manage.py createsuperuser</li>
-</ol>
+1. Create a virtual environment:
+   ```bash
+   python -m venv env
+   ```
 
-<h1>Useful Urls</h1>
-<ol>
-  <li>"/admin" - Admin Panel</li>
-  <li>"/api/swagger" - API Documentation</li>
-</ol>
+2. Activate the virtual environment:
+   ```bash
+   env/Scripts/activate  # For Windows
+   source env/bin/activate  # For Unix or MacOS
+   ```
+
+3. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Apply database migrations:
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+   ```
+
+5. Start the development server:
+   ```bash
+   python manage.py runserver
+   ```
+
+# Creating Admin Account
+
+1. Create a superuser for accessing the admin panel:
+   ```bash
+   python manage.py createsuperuser
+   ```
+
+# Useful URLs
+
+- "/admin" - Admin Panel
+- "/api/swagger" - API Documentation
